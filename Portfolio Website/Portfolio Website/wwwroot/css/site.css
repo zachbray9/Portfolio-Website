@@ -82,6 +82,18 @@ h3 {
     margin: 0px;
 }
 
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+/*Intro Section*/
+
 .intro-section {
     margin-top: 250px;
     margin-bottom: 500px;
@@ -90,7 +102,6 @@ h3 {
 .intro-section-details {
     margin-left: 275px;
     margin-right: auto;
-    /*margin-top: 200px;*/
 }
 
 .intro-buttons-list {
@@ -123,4 +134,26 @@ h3 {
 .ScrollToSection-Button:hover {
     background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
     border-radius: 50px;
+}
+
+/*Skills Section*/
+
+.aboutme-section {
+    background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
+}
+
+.aboutme-section-details-container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.aboutme-section-details {
+    display: flex;
+    column-gap: 40px;
+}
+
+.resume-button {
+    justify-content: end;
 }
