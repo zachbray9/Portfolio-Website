@@ -9,20 +9,20 @@
     @* <link rel="stylesheet" href="~/Portfolio_Website.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar">
-            <div class="container-fluid">
+            <div class="navbar-brand-container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Z.B.</a>
-                <div class="navbar-buttons-list-container">
-                    <ul class="navbar-buttons-list">
-                        <li class="navbar-buttons-listitem">
-                            <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="navbar-buttons-listitem">
-                            <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="navbar-buttons-list-container">
+                <ul class="navbar-buttons-list">
+                    <li class="navbar-buttons-listitem">
+                        <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                    </li>
+                    <li class="navbar-buttons-listitem">
+                        <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Privacy">PRIVACY</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
