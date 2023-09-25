@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ifXBLP1EYBf97XTaqt8P1palRTWd+jB6K0xMEiax0Dg=",
+  "Hash": "dir/Yzzs5Cz2jvFAinsW8UqxgYD6km5ynOz0XcaC3wE=",
   "Source": "Portfolio Website",
   "BasePath": "_content/Portfolio Website",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\dot-net-logo.svg"
     },
     {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\EFCore-logo.png",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/EFCore-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\EFCore-logo.png"
+    },
+    {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo.svg",
       "SourceId": "Portfolio Website",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\github-logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\git-logo.svg",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/git-logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\git-logo.svg"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\html5-logo.svg",

@@ -1,5 +1,9 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 @media (min-width: 768px) {
@@ -8,13 +12,9 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*Navbar styles*/
@@ -68,6 +68,11 @@ body {
 }
 
 /*Body Styles*/
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
 
 h1 {
     font-size: 100px;
@@ -148,14 +153,30 @@ img {
 /*About Me Section*/
 
 .aboutme-section {
-    background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
+    background-color: #181818;
 }
 
 .aboutme-section-details-container {
     max-width: 1400px;
     margin: 0px auto;
-    padding: 40px 0px;
+    padding: 100px 0px;
     box-sizing: border-box;
+}
+
+
+.aboutme-section-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .aboutme-section-header {
@@ -164,39 +185,59 @@ img {
     color: #ffffff;
 }
 
-.aboutme-section-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 40px;
-    place-items: center;
-}
-
 .aboutme-paragraph {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 24px;
     color: #ffffff;
 }
 
-.aboutme-list {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 20px;
+.aboutme-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutme-skills-header {
     color: #ffffff;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+}
+
+.aboutme-list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+    margin-bottom: 40px;
 }
 
 .aboutme-listitem {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: 0px;
 }
 
 .skill-label {
     color: #ffffff;
+    font-weight: 500;
 }
 
 .resume-button {
-    justify-content: end;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.resume-button:hover {
+    background: linear-gradient(to bottom right, #ee4b2b 50%, #ffffff 100%);
+    border-radius: 50px;
+    color: #ffffff;
 }
