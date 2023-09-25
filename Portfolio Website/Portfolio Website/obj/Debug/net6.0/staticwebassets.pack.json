@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\Portfolio Website.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\csharp-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\csharp-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\css3-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\css3-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\dot-net-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\dot-net-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\github-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\html5-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\html5-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\sql-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\sql-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\sqlite-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\sqlite-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\visualstudio-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\visualstudio-logo.svg"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

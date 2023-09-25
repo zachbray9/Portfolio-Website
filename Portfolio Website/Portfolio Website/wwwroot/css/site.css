@@ -82,6 +82,10 @@ h3 {
     margin: 0px;
 }
 
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 ul {
     list-style: none;
     padding: 0px;
@@ -90,6 +94,11 @@ ul {
 
 li {
     list-style: none;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
 }
 
 /*Intro Section*/
@@ -136,7 +145,7 @@ li {
     border-radius: 50px;
 }
 
-/*Skills Section*/
+/*About Me Section*/
 
 .aboutme-section {
     background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
@@ -145,13 +154,47 @@ li {
 .aboutme-section-details-container {
     max-width: 1400px;
     margin: 0px auto;
-    padding: 0px;
+    padding: 40px 0px;
     box-sizing: border-box;
 }
 
+.aboutme-section-header {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
 .aboutme-section-details {
-    display: flex;
-    column-gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    place-items: center;
+}
+
+.aboutme-paragraph {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.aboutme-list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+
+.aboutme-skills-header {
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+}
+
+.aboutme-listitem {
+    display: inline-block;
+    align-items: center;
+}
+
+.skill-label {
+    color: #ffffff;
 }
 
 .resume-button {
