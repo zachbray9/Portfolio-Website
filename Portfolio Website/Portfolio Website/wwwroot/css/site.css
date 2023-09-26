@@ -79,16 +79,20 @@ h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin: 0px;
+    padding: 0px;
 }
 
 h3 {
     font-size: 30px;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 
 p {
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {
@@ -99,11 +103,21 @@ ul {
 
 li {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 img {
     padding: 0px;
     margin: 0px;
+}
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Intro Section*/
@@ -183,6 +197,7 @@ img {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 30px;
     color: #ffffff;
+    margin-bottom: 40px;
 }
 
 .aboutme-paragraph {
@@ -221,6 +236,7 @@ img {
 .skill-label {
     color: #ffffff;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .resume-button {
@@ -240,4 +256,74 @@ img {
     background: linear-gradient(to bottom right, #ee4b2b 50%, #ffffff 100%);
     border-radius: 50px;
     color: #ffffff;
+}
+
+/*Projects Section*/
+
+.projects-section-container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+
+.projects-section-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.projects-section-header {
+    font-weight: bold;
+}
+
+.github-button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border: none;
+    transition: all 1s;
+}
+
+.github-button:hover{
+    background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
+    border-radius: 50px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+
+.project-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.project-techstack {
+    font-size: 20px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-buttons-container {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
 }
