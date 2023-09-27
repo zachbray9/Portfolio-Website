@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\git-logo.svg"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo-white.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\github-logo-white.svg"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo.svg",
       "PackagePath": "staticwebassets\\Assets\\Images\\github-logo.svg"
     },
     {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\html5-logo.svg",
       "PackagePath": "staticwebassets\\Assets\\Images\\html5-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\linkedin-logo-white.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\linkedin-logo-white.png"
     },
     {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\sql-logo.svg",

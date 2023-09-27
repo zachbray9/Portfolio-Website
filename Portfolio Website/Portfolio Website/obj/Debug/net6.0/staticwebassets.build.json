@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dir/Yzzs5Cz2jvFAinsW8UqxgYD6km5ynOz0XcaC3wE=",
+  "Hash": "l5bkDIwqCdd9DhvPWrnmzJhN1a34FiHdF7d1Ef1E9xA=",
   "Source": "Portfolio Website",
   "BasePath": "_content/Portfolio Website",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\github-logo.svg"
     },
     {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo-white.svg",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/github-logo-white.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\github-logo-white.svg"
+    },
+    {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\git-logo.svg",
       "SourceId": "Portfolio Website",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\html5-logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\linkedin-logo-white.png",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/linkedin-logo-white.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\linkedin-logo-white.png"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\sqlite-logo.svg",

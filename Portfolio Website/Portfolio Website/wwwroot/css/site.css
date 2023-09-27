@@ -405,10 +405,28 @@ form {
 
 .footer {
     background-color: #121212;
+    padding: 20px 0px;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 20px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: #181818;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.social-link:hover {
+    background-color: #c3073f;
 }
