@@ -120,6 +120,22 @@ a {
     padding: 0px;
 }
 
+input {
+    margin: 0px;
+    padding: 10px;
+}
+
+textarea {
+    margin: 0px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
 /*Intro Section*/
 
 .intro-section {
@@ -253,7 +269,7 @@ a {
 }
 
 .resume-button:hover {
-    background: linear-gradient(to bottom right, #ee4b2b 50%, #ffffff 100%);
+    background: linear-gradient(to bottom right, #c3073f 60%, #ffffff 100%);
     border-radius: 50px;
     color: #ffffff;
 }
@@ -299,6 +315,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 200px;
 }
 
 .project-container {
@@ -312,6 +329,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+    min-height: 350px;
 }
 
 .project-techstack {
@@ -326,4 +344,71 @@ a {
     display: flex;
     align-items: center;
     column-gap: 40px;
+}
+
+/*Contact Section*/
+
+.contact-section {
+    background-color: #181818;
+}
+
+.contact-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 40px 0px;
+}
+
+.contact-section-header {
+    color: #ffffff;
+}
+
+.contact-section-description {
+    color: #c3073f;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.contact-form-nameandemail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact-form-input {
+    background-color: #121212;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.contact-form-message {
+    background-color: #121212;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    resize: vertical;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #121212;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
