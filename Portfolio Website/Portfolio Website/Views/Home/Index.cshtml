@@ -146,12 +146,18 @@
         <div class="contact-section-container">
             <h3 class="contact-section-header">CONTACT</h3>
             <p class="contact-section-description">Want to get connected?</p>
-            <form class="contact-form-container">
+            <form class="contact-form-container" action="https://formsubmit.co/da860cb97063bac44a2d13d7f3a1ff10" method="post">
+                @* Honeypot *@
+                <input type="text" name="_honey" style="display: none;"/>
+
+                @* Disable Captcha *@
+                <input type="hidden" name="_captcha" value="false"/>
+
                 <div class="contact-form-nameandemail-container">
-                    <input class="contact-form-input" type="text" placeholder="Name" required/>
-                    <input class="contact-form-input" type="email" placeholder="Email Address" required/>
+                    <input class="contact-form-input" type="text" name="Name" placeholder="Name" required/>
+                    <input class="contact-form-input" type="email" name="Email" placeholder="Email Address" required/>
                 </div>
-                <textarea class="contact-form-message" placeholder="Message" rows="8" required></textarea>
+                <textarea class="contact-form-message" name="Message" placeholder="Message" rows="8" required></textarea>
                 <button class="resume-button" type="submit">SUBMIT</button>
             </form>
         </div>
