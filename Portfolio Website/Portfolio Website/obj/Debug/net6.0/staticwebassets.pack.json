@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\visualstudio-logo.svg"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\Resume.pdf",
+      "PackagePath": "staticwebassets\\Assets\\MyInfo\\Resume.pdf"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

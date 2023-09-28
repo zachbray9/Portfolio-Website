@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l5bkDIwqCdd9DhvPWrnmzJhN1a34FiHdF7d1Ef1E9xA=",
+  "Hash": "NTlGa1B6GmCr3oLioOV1LAN+U+3vuMaHlXE1myO/EeU=",
   "Source": "Portfolio Website",
   "BasePath": "_content/Portfolio Website",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\visualstudio-logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\Resume.pdf",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/MyInfo/Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\MyInfo\\Resume.pdf"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\css\\site.css",

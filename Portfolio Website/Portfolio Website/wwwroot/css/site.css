@@ -4,11 +4,13 @@ html {
     min-height: 100%;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+    scroll-behavior: smooth;
   }
 }
 
