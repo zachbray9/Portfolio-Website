@@ -1,0 +1,31 @@
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\wwwroot\Assets\Images\html5-logo.svg
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\appsettings.Development.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\appsettings.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.staticwebassets.runtime.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.exe
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.deps.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.runtimeconfig.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.dll
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Release\net6.0\Portfolio Website.pdb
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.AssemblyInfoInputs.cache
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.AssemblyInfo.cs
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.csproj.CoreCompileInputs.cache
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.RazorAssemblyInfo.cache
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.RazorAssemblyInfo.cs
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets\msbuild.Portfolio Website.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets\msbuild.build.Portfolio Website.props
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.Portfolio Website.props
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.Portfolio Website.props
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\scopedcss\bundle\Portfolio Website.styles.css
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\scopedcss\projectbundle\Portfolio Website.bundle.scp.css
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.dll
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\refint\Portfolio Website.dll
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.pdb
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\Portfolio Website.genruntimeconfig.cache
+C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Release\net6.0\ref\Portfolio Website.dll
