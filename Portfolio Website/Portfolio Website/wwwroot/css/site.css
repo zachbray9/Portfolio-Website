@@ -77,24 +77,37 @@ div {
 }
 
 h1 {
-    font-size: 100px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin: 0px;
     padding: 0px;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
 h3 {
     font-size: 30px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
 }
 
 ul {
@@ -115,7 +128,8 @@ img {
 }
 
 a {
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
     text-decoration: none;
     cursor: pointer;
     margin: 0px;
@@ -138,6 +152,16 @@ form {
     padding: 0px;
 }
 
+iframe {
+
+}
+
+@media (max-width: 768px) {
+    iframe {
+
+    }
+}
+
 /*Intro Section*/
 
 .intro-section {
@@ -145,28 +169,50 @@ form {
     margin-bottom: 500px;
 }
 
-.intro-section-details {
-    margin-left: 275px;
-    margin-right: auto;
+.intro-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .intro-section-container {
+        flex-direction: column;
+    }
+}
+
+.intro-section-nameandbuttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.intro-name {
+    font-weight: 700;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.name-gradient {
+    color: #0094ff;
+}
+
+.intro-buttons {
+  
 }
 
 .intro-buttons-list {
     list-style: none;
     display: flex;
+    column-gap: 10px;
     padding: 0px;
     margin: 30px 0px;
 }
 
-.intro-buttons-listitem {
-    list-style: none;
-    /*display: inline-block;*/
-    margin-right: 10px;
-}
-
-
 .ScrollToSection-Button {
-    font-size: 16px;
-    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold; 
     background-color: #000000;
     color: #ffffff;
@@ -175,6 +221,13 @@ form {
     border: none;
     cursor: pointer;
     transition: background 1s, border-radius 1s;
+}
+
+@media (max-width: 768px) {
+    .ScrollToSection-Button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
 }
 
 .ScrollToSection-Button:hover {
@@ -186,11 +239,14 @@ form {
 
 .aboutme-section {
     background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutme-section-details-container {
-    max-width: 1400px;
-    margin: 0px auto;
+    max-width: 1200px;
+    margin: 0px 40px;
     padding: 100px 0px;
     box-sizing: border-box;
 }
@@ -212,15 +268,12 @@ form {
 }
 
 .aboutme-section-header {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 30px;
     color: #ffffff;
     margin-bottom: 40px;
 }
 
 .aboutme-paragraph {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 24px;
     color: #ffffff;
 }
 
@@ -244,6 +297,13 @@ form {
     margin-bottom: 40px;
 }
 
+@media (max-width: 768px) {
+    .aboutme-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+}
+
 .aboutme-listitem {
     display: flex;
     flex-direction: column;
@@ -258,8 +318,6 @@ form {
 }
 
 .resume-button {
-    font-size: 16px;
-    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     background-color: #ffffff;
     color: #000000;
@@ -276,20 +334,39 @@ form {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    .resume-button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+}
+
 /*Projects Section*/
 
+.projects-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .projects-section-container {
-    max-width: 1400px;
-    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px 40px;
     padding: 100px 0px;
     box-sizing: border-box;
 }
 
 .projects-section-header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .projects-section-header {
@@ -297,7 +374,6 @@ form {
 }
 
 .github-button {
-    font-size: 16px;
     font-weight: bold;
     background-color: #000000;
     color: #ffffff;
@@ -310,6 +386,13 @@ form {
 .github-button:hover{
     background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
     border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .github-button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
 }
 
 .projects-list {
@@ -326,6 +409,16 @@ form {
     column-gap: 40px;
 }
 
+@media screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+}
+
 .project-details-container {
     display: flex;
     flex-direction: column;
@@ -334,18 +427,34 @@ form {
     min-height: 350px;
 }
 
+.project-title {
+
+}
+
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 20px;
+    }
+}
+
 .project-techstack {
-    font-size: 20px;
+    
 }
 
 .project-description {
-    font-size: 20px;
+    
 }
 
 .project-buttons-container {
     display: flex;
     align-items: center;
     column-gap: 40px;
+}
+
+.project-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Contact Section*/
