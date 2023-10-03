@@ -1,3 +1,7 @@
+* *::before *::after {
+    box-sizing: inherit;
+}
+
 html {
     font-size: 14px;
     position: relative;
@@ -5,6 +9,7 @@ html {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -84,9 +89,9 @@ h1 {
     padding: 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -98,14 +103,15 @@ h3 {
 }
 
 p {
+    font-size: 20px;
     font-family: Poppins, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .project-buttons-container {
-        font-size: 12px;
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
     }
 }
 
@@ -149,6 +155,12 @@ textarea {
 form {
     margin: 0px;
     padding: 0px;
+}
+
+iframe {
+    aspect-ratio: 4/3;
+    height: 100%;
+    width: 100%;
 }
 
 /*Intro Section*/
@@ -212,6 +224,13 @@ form {
     transition: background 1s, border-radius 1s;
 }
 
+@media (max-width: 768px) {
+    .ScrollToSection-Button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+}
+
 .ScrollToSection-Button:hover {
     background: linear-gradient(to bottom right, #0094ff 30%, #ffffff 100%);
     border-radius: 50px;
@@ -221,11 +240,14 @@ form {
 
 .aboutme-section {
     background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutme-section-details-container {
-    max-width: 1400px;
-    margin: 0px auto;
+    max-width: 1200px;
+    margin: 0px 40px;
     padding: 100px 0px;
     box-sizing: border-box;
 }
@@ -253,7 +275,6 @@ form {
 }
 
 .aboutme-paragraph {
-    font-size: 24px;
     color: #ffffff;
 }
 
@@ -275,6 +296,13 @@ form {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px;
     margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .aboutme-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
 }
 
 .aboutme-listitem {
@@ -305,6 +333,13 @@ form {
     background: linear-gradient(to bottom right, #c3073f 60%, #ffffff 100%);
     border-radius: 50px;
     color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .resume-button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
 }
 
 /*Projects Section*/
@@ -354,6 +389,13 @@ form {
     border-radius: 50px;
 }
 
+@media (max-width: 768px) {
+    .github-button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+}
+
 .projects-list {
     display: flex;
     flex-direction: column;
@@ -381,17 +423,20 @@ form {
 .project-details-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
+    row-gap: 40px;
     min-height: 350px;
 }
 
-.project-techstack {
-    font-size: 20px;
+.project-title {
+
 }
 
-.project-description {
-    font-size: 20px;
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 20px;
+    }
 }
 
 .project-buttons-container {

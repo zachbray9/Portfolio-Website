@@ -1,3 +1,7 @@
+* *::before *::after {
+    box-sizing: inherit;
+}
+
 html {
     font-size: 14px;
     position: relative;
@@ -5,6 +9,7 @@ html {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -60,13 +65,21 @@ body {
 .navbar-buttons-listitem-content {
     text-decoration: none;
     cursor: pointer;
-    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
     color: #000000;
     transition: all 0.2s;
 }
 
 .navbar-buttons-listitem-content:hover {
     color: #fee12b;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.white-text {
+    color: #ffffff;
 }
 
 /*Body Styles*/
@@ -153,13 +166,9 @@ form {
 }
 
 iframe {
-
-}
-
-@media (max-width: 768px) {
-    iframe {
-
-    }
+    aspect-ratio: 4/3;
+    height: 100%;
+    width: 100%;
 }
 
 /*Intro Section*/
@@ -422,8 +431,9 @@ iframe {
 .project-details-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
+    row-gap: 40px;
     min-height: 350px;
 }
 
@@ -435,14 +445,6 @@ iframe {
     .project-title {
         font-size: 20px;
     }
-}
-
-.project-techstack {
-    
-}
-
-.project-description {
-    
 }
 
 .project-buttons-container {
