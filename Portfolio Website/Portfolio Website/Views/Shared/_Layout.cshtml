@@ -10,29 +10,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <div class="navbar-brand-container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Z.B.</a>
-            </div>
-            <div class="navbar-buttons-list-container">
-                <ul class="navbar-buttons-list">
-                    <li class="navbar-buttons-listitem">
-                        <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
-                    </li>
-                    <li class="navbar-buttons-listitem">
-                        <a class="navbar-buttons-listitem-content" href="#about">ABOUT</a>
-                    </li>
-                    <li class="navbar-buttons-listitem">
-                        <a class="navbar-buttons-listitem-content" href="#projects">PROJECTS</a>
-                    </li>
-                    <li class="navbar-buttons-listitem">
-                        <a class="navbar-buttons-listitem-content" href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Z.B.</a>
+
+            <input type="checkbox" class="hamburger-menu" id="hamburger-menu"/>
+            <label for="hamburger-menu" class="hamburger-menu-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="navbar-buttons-list">
+                <li class="navbar-buttons-listitem">
+                    <a class="navbar-buttons-listitem-content" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                </li>
+                <li class="navbar-buttons-listitem">
+                    <a class="navbar-buttons-listitem-content" href="#about">ABOUT</a>
+                </li>
+                <li class="navbar-buttons-listitem">
+                    <a class="navbar-buttons-listitem-content" href="#projects">PROJECTS</a>
+                </li>
+                <li class="navbar-buttons-listitem">
+                    <a class="navbar-buttons-listitem-content" href="#contact">CONTACT</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <div class="container">
