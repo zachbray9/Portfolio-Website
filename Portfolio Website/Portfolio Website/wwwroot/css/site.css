@@ -37,6 +37,7 @@ body {
     justify-content: space-between;
     margin-bottom: 25px;
     padding: 10px 40px;
+    background-color: #fff;
 }
 
 .navbar-brand {
@@ -65,21 +66,12 @@ body {
 .navbar-buttons-listitem-content {
     text-decoration: none;
     cursor: pointer;
-    /*font-family: Helvetica, Arial, sans-serif;*/
     color: #000000;
     transition: all 0.2s;
 }
 
 .navbar-buttons-listitem-content:hover {
     color: #fee12b;
-}
-
-.black-text {
-    color: #000000;
-}
-
-.white-text {
-    color: #ffffff;
 }
 
 /*Body Styles*/
