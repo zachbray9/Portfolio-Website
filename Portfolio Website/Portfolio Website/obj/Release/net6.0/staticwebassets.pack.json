@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\EFCore-logo.png"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\azure-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\azure-logo.svg"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\csharp-logo.svg",
       "PackagePath": "staticwebassets\\Assets\\Images\\csharp-logo.svg"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\dot-net-logo.svg",
       "PackagePath": "staticwebassets\\Assets\\Images\\dot-net-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\firebase-logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\firebase-logo.svg"
     },
     {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\git-logo.svg",

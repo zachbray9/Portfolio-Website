@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2hiIyGbbM80kA9kr6zmxhOE5t10GeazxhmspHTXxogI=",
+  "Hash": "sVSBiDYLtWnQoqmYKMioo/vBJz6CvbR9/MLTB7z3uyo=",
   "Source": "Portfolio Website",
   "BasePath": "_content/Portfolio Website",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Portfolio Website.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\azure-logo.svg",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/azure-logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\azure-logo.svg"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\csharp-logo.svg",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\EFCore-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\firebase-logo.svg",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/firebase-logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\firebase-logo.svg"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\github-logo.svg",
