@@ -7,10 +7,4 @@
     <RootNamespace>Portfolio_Website</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Update="wwwroot\Assets\Images\html5-logo.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
 </Project>

@@ -28,4 +28,3 @@ C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website
 C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Debug\net6.0\Portfolio Website.pdb
 C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Debug\net6.0\Portfolio Website.genruntimeconfig.cache
 C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\obj\Debug\net6.0\ref\Portfolio Website.dll
-C:\Users\zachb\Documents\Github Repositories\Portfolio-Website\Portfolio Website\Portfolio Website\bin\Debug\net6.0\wwwroot\Assets\Images\html5-logo.svg
