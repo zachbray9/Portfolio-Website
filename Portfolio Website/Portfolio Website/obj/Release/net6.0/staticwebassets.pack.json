@@ -9,6 +9,26 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\EFCore-logo.png"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\GravityOfSilenceImages\\Gravity Gun Gif.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\GravityOfSilenceImages\\Gravity Gun Gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\GravityOfSilenceImages\\Gravity Switch Gif.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\GravityOfSilenceImages\\Gravity Switch Gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\GravityOfSilenceImages\\LaserPuzzleGif.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\GravityOfSilenceImages\\LaserPuzzleGif.gif"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\GravityOfSilenceImages\\PowerCorePuzzleGif.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\GravityOfSilenceImages\\PowerCorePuzzleGif.gif"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\GravityOfSilenceImages\\ShootingRangePuzzleGif.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\GravityOfSilenceImages\\ShootingRangePuzzleGif.gif"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf",
       "PackagePath": "staticwebassets\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf"
     },

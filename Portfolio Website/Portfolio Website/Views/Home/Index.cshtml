@@ -116,9 +116,9 @@
             </div>
             <ul class="projects-list">
                 <li class="projects-list-listitem">
+                    <h3 class="project-title">MyAnimeVault</h3>
                     <div class="project-container">
                         <div class="project-details-container">
-                            <h3 class="project-title">MyAnimeVault</h3>
                             <p class="project-techstack">C# | ASP.Net Core MVC | RESTful API | Entity Framework | Azure SQL Database | Firebase</p>
                             <p class="project-description">
                                 An interactive website that leverages the MyAnimeList API and allows users to explore, rate, and track their favorite anime series. The platform
@@ -136,10 +136,10 @@
                     </div>
                 </li>
                 <li class="projects-list-listitem">
+                    <h3 class="project-title">Bug Tracker</h3>
                     <div class="project-container">
                         <div class="project-details-container">
-                            <h3 class="project-title">Bug Tracker</h3>
-                            <p class="project-techstack">C# | WPF | Entity Framework | SQLite | .Net 6</p>
+                            <p class="project-techstack">C# | WPF | Entity Framework | SQLite</p>
                             <p class="project-description">An intuitive bug/task tracking tool that allows development teams to create tickets for issues, 
                                 assign them, track their status, and collaborate with other team members.</p>
                             <div class="project-buttons-container">
@@ -153,10 +153,28 @@
                     </div>
                 </li>
                 <li class="projects-list-listitem">
+                    <h3 class="project-title">The Gravity of Silence</h3>
                     <div class="project-container">
                         <div class="project-details-container">
-                            <h3 class="project-title">Zork Builder</h3>
-                            <p class="project-techstack">C# | WPF | JSON | .Net 5</p>
+                            <p class="project-techstack">C# | Unity</p>
+                            <p class="project-description">
+                                A third person puzzle solving game where the user must utilize their gravity altering abilities to complete levels and regain control of their 
+                                space ship from its rogue AI. This project was made with a small development team for my UCF Game Production class.
+                            </p>
+                            <div class="project-buttons-container">
+                                <a class="github-button" asp-area="" asp-controller="GravityOfSilence" asp-action="Index">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="project-video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gGB6lE-0YYg?si=DV06gfB9jq82576X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects-list-listitem">
+                    <h3 class="project-title">Zork Builder</h3>
+                    <div class="project-container">
+                        <div class="project-details-container">
+                            <p class="project-techstack">C# | WPF | JSON</p>
                             <p class="project-description">
                                 A tool for creating and editing worlds for custom Zork game in JSON. Abstracts the complexity of JSON file editing, 
                                 making customizing worlds accessible for users without JSON expertise.
@@ -172,9 +190,9 @@
                     </div>
                 </li>
                 <li class="projects-list-listitem">
+                    <h3 class="project-title">Valorant API Leaderboard Tracker</h3>
                     <div class="project-container">
                         <div class="project-details-container">
-                            <h3 class="project-title">Valorant API Leaderboard Tracker</h3>
                             <p class="project-techstack">C# | Windows Forms</p>
                             <p class="project-description">
                                 A tool that accesses the Riot Games API, retrieves the Valorant Ranked endpoint, 
@@ -215,3 +233,29 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select all links with the class navbar-buttons-listitem-content
+        var links = document.querySelectorAll('.navbar-buttons-listitem-content');
+
+        // Add click event listener to each link
+        links.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                // Get the target section ID from the link's href attribute
+                var targetId = this.getAttribute('href').substring(1);
+
+                // Check if the target section is on the same page
+                var targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    e.preventDefault(); // Prevent default navigation
+
+                    // Scroll to the target section
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>

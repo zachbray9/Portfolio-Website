@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "The Gravity of Silence";
+}
+
+<div class="text-center">
+    <div class="page-container">
+        <div class="page-info-container">
+            <div class="game-title-container">
+                <h1>The Gravity of Silence</h1>
+            </div>
+
+            <div class="game-about-section">
+                <div class="game-about-properties-grid">
+                    <div class="game-about-section-column">
+                        <div class="game-role-section">
+                            <h4>Role</h4>
+                            <p>Lead Programmer</p>
+                        </div>
+                        <div class="game-year-section">
+                            <h4>Year</h4>
+                            <p>2020</p>
+                        </div>
+                    </div>
+                    <div class="game-about-section-column">
+                        <div class="game-genre-section">
+                            <h4>Genre</h4>
+                            <p>Third Person Puzzle Game</p>
+                        </div>
+                        <div class="game-platform-section">
+                            <h4>Platform</h4>
+                            <p>PC, Xbox, Playstation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-about-section-column">
+                    <div class="game-description-section">
+                        <h4>Description</h4>
+                        <p>
+                            The Gravity of Silence is a third person puzzle solving game where the user must utilize their gravity altering abilities to complete levels and regain control of their
+                            space ship from its rogue AI. This project was made with a small development team for my UCF Game Production class. I was the only programmer on the project, so everything
+                            that involved code was developed by me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-video-section">
+                <div class="project-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gGB6lE-0YYg?si=DV06gfB9jq82576X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="game-contributions-section">
+                <h2>My Contributions</h2>
+
+                <div class="game-contributions-details-section">
+                    <h4>Player Mechanics</h4>
+                    <div class="game-contributions-details-section-container">
+                        <div class="game-mechanics-paragraph-container">
+                            <p>
+                                I created a gravity switch and gravity gun mechanic that granted the player 
+                                the ability to turn gravity on and off and freely move objects around the environment.<br><br>
+
+                                The gravity switch mechanic allowed the player to control whether objects fall up or 
+                                down. Unity's physics system has a set value for the gravity force of each scene, but this can be manually 
+                                changed via script. I made it so that the force of gravity was changed from -9.8 m/s^2 to 9.8 m/s^2 upon the 
+                                click of the F key to reverse it and make objects with rigidbodies fall upwards.<br><br>
+
+                                The gravity gun mechanic allowed the player to grab objects with a tractor beam, 
+                                move them around, and even launch them by adding a forward force to the object. This was done by using a raycast 
+                                to detect if there is an object with a rigidbody in front of the player, and if so, I moved the position of the 
+                                grabbed object to the position of an empty gameobject that I placed in the spot that I wanted grabbed objects to 
+                                start at. I then made the velocity of the grabbed object equal to the velocity of the empty gameobject to move 
+                                it around, and used a line renderer for the laser beam.  These mechanics were created using Rigidbodies and 
+                                Unity's physics system.
+                            </p>
+                        </div>
+
+                        <div class="game-mechanics-images-container">
+                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/Gravity Switch Gif.gif" title="Gravity Switch Gif"/>
+                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/Gravity Gun Gif.gif" title="Gravity Gun Gif"/>
+                        </div>
+                    </div>
+
+                    <h4>Puzzle Mechanics</h4>
+                    <div class="game-contributions-details-section-container">
+                        <div class="game-mechanics-paragraph-container">
+                            <p>
+                                The first puzzle in level 
+                                one consists of a power core behind a glass wall which has a laser field. You have to use the gravity gun to navigate 
+                                the power core through the lasers and then use the gravity switch to get it out from behind the wall. Touching the 
+                                lasers sends the power core back to the start of the maze.<br><br>
+
+                                The second puzzle in level one has a generator that needs to be powered using the power 
+                                core that you got from the first puzzle, as well as several other smaller power cores that need to be color 
+                                coordinated in the correct slots in the generator. Only upon putting every power core in their correct slots does 
+                                the door to the next level open. I created this puzzle using trigger volumes in the slots that had boolean values 
+                                indicating if the correct power core was placed there. When a gameobject touches the trigger volume, it checks the 
+                                tag of the gameobject to see if it is a power core, and if so, then checks to see if the color on that instance of 
+                                the power core script is correct.  <br><br>
+
+                                The third puzzle that I created was essentially a shooting range in level two that 
+                                utilizes the launching feature of the gravity gun. There are targets that the player needs to 
+                                hit with special objects in order to open the door to the next area. The objects stick to the targets upon 
+                                collision to indicate which targets have already been hit, and this was done by using a FixedJoint to attach 
+                                the two objects on contact. Only upon hitting all of the targets does the door open, and I determined if the 
+                                conditions were met by using a series of booleans and checking if all the targets were hit each time a new target
+                                was hit.
+                            </p>
+                        </div>
+
+                        <div class="game-mechanics-images-container">
+                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/LaserPuzzleGif.gif" title="Laser Puzzle Gif" />
+                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/PowerCorePuzzleGif.gif" title="Power Core Puzzle Gif" />
+                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/ShootingRangePuzzleGif.gif" title="Shooting Range Puzzle Gif" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
