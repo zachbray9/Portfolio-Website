@@ -54,8 +54,9 @@
                 <h2>My Contributions</h2>
 
                 <div class="game-contributions-details-section">
-                    <h4>Automated Performance Testing</h4>
                     <div class="game-contributions-details-section-container">
+                        <h4>Automated Performance Testing</h4>
+
                         <div class="game-mechanics-paragraph-container">
                             <p> 
                                 To assure that the game performed well even as things were constantly being added, I created an automated 
@@ -80,37 +81,44 @@
                         </div>
                     </div>
 
-                    <h4>Gameplay Mechanics</h4>
                     <div class="game-contributions-details-section-container">
+                        <h4>Invisibility Cloak Mechanic</h4>
+
                         <div class="game-mechanics-paragraph-container">
                             <p>
-                                The first puzzle in level
-                                one consists of a power core behind a glass wall which has a laser field. You have to use the gravity gun to navigate
-                                the power core through the lasers and then use the gravity switch to get it out from behind the wall. Touching the
-                                lasers sends the power core back to the start of the maze.<br><br>
-
-                                The second puzzle in level one has a generator that needs to be powered using the power
-                                core that you got from the first puzzle, as well as several other smaller power cores that need to be color
-                                coordinated in the correct slots in the generator. Only upon putting every power core in their correct slots does
-                                the door to the next level open. I created this puzzle using trigger volumes in the slots that had boolean values
-                                indicating if the correct power core was placed there. When a gameobject touches the trigger volume, it checks the
-                                tag of the gameobject to see if it is a power core, and if so, then checks to see if the color on that instance of
-                                the power core script is correct.  <br><br>
-
-                                The third puzzle that I created was essentially a shooting range in level two that
-                                utilizes the launching feature of the gravity gun. There are targets that the player needs to
-                                hit with special objects in order to open the door to the next area. The objects stick to the targets upon
-                                collision to indicate which targets have already been hit, and this was done by using a FixedJoint to attach
-                                the two objects on contact. Only upon hitting all of the targets does the door open, and I determined if the
-                                conditions were met by using a series of booleans and checking if all the targets were hit each time a new target
-                                was hit.
+                                One of the mechanics that I developed is the invisibility cloak. When activated, a translucent material that I created 
+                                is applied to the player and the attached weapon. Upon activating the cloak, the player is undetectable by enemy AI which I developed by using an event 
+                                dispatcher that tells all nearby AI that the cloak is active and removes the player from the target actor on the AI blackboard. This effect 
+                                is temporary though, as I also added a cooldown timer which is shown in the top left of the screen. The cloak can be used for 10 seconds before 
+                                it is automatically deactivated and the player must wait for the cooldown to end before using it again.
                             </p>
                         </div>
 
                         <div class="game-mechanics-images-container">
-                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/LaserPuzzleGif.gif" title="Laser Puzzle Gif" />
-                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/PowerCorePuzzleGif.gif" title="Power Core Puzzle Gif" />
-                            <img class="game-mechanics-image" src="/Assets/Images/GravityOfSilenceImages/ShootingRangePuzzleGif.gif" title="Shooting Range Puzzle Gif" />
+                            <img class="game-mechanics-image" src="/Assets/Images/ProjectCybernetica/Cloak gif.gif" title="Invisibility Cloak Gif" />
+                            <img class="game-mechanics-image" src="/Assets/Images/ProjectCybernetica/Cloak Material Blueprint.PNG" title="Cloak Material Blueprint" height="340" width="600" />
+                        </div>
+                    </div>
+
+                    <div class="game-contributions-details-section-container">
+                        <h4>Enemy AI Behavior</h4>
+
+                        <div class="game-mechanics-paragraph-container">
+                            <p>
+                                I was tasked with creating a strafing mechanic for the enemies to move around a bit in an attempt to 
+                                dodge the player's gunfire. The blueprint gets a random number, either 0 or 1, which chooses 
+                                whether the enemy is going to strafe left or right. It then gets a point at a specified distance in front 
+                                of the enemy and a specified distance to the left or right of the enemy (determined by either the 0 or 1), 
+                                finds the midpoint between them, and then gives the midpoint to the AI blackboard as the location for the 
+                                enemy to move to. The black lines in the gif below show the location that the striker is going to 
+                                move and are only in development builds of the game. This way the enemies move with a bit of 
+                                unpredictability and don't just stand still.
+                            </p>
+                        </div>
+
+                        <div class="game-mechanics-images-container">
+                            <img class="game-mechanics-image" src="/Assets/Images/ProjectCybernetica/Striker Strafe Gif.gif" title="Enemy Strafe Gif" />
+                            <img class="game-mechanics-image" src="/Assets/Images/ProjectCybernetica/Striker Strafe Blueprint.PNG" title="Enemy Strafe Blueprint" height="340" width="600" />
                         </div>
                     </div>
                 </div>
