@@ -67,6 +67,7 @@ textarea {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar {
@@ -469,7 +470,6 @@ input[type="checkbox"] {
     height: 100%;
     left: 0;
     top: 0;
-    z-index: -1;
 }
 
 /*Contact Section*/
