@@ -1,5 +1,5 @@
 * {
-    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-family: Inter, Poppins, Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
@@ -67,7 +67,6 @@ input {
 
 textarea {
     padding: 10px;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -181,7 +180,7 @@ textarea {
 
 .intro-name {
     font-weight: 700;
-    font-family: Poppins, Helvetica, sans-serif;
+    /*font-family: Poppins, Helvetica, sans-serif;*/
 }
 
 .name-gradient {
@@ -488,10 +487,6 @@ textarea {
     padding: 40px 20px;
     margin-top: 25vh;
 }
-
-/*.contact-section-header {
-    color: #ffffff;
-}*/
 
 .contact-section-description {
     color: var(--accentblue);
