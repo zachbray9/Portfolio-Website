@@ -151,7 +151,7 @@ textarea {
 /*Intro Section*/
 
 .intro-section {
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 
 .intro-section-container {
@@ -159,7 +159,7 @@ textarea {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-bottom: 25vh;
+    padding-bottom: 10vh;
     margin: 0px 40px;
 }
 
@@ -229,8 +229,8 @@ textarea {
 .aboutme-section-details-container {
     max-width: 1200px;
     margin: 0px 40px;
-    padding: 100px 0px;
     box-sizing: border-box;
+    padding-top: 100px;
 }
 
 .aboutme-section-details {
@@ -268,7 +268,6 @@ textarea {
     justify-content: start;
     align-items: start;
     gap: 10px;
-    margin: 0px 0px 40px 0px;
 }
 
 .aboutme-listitem {
@@ -366,6 +365,7 @@ textarea {
     max-width: 1200px;
     margin: 0px 40px;
     padding: 100px 0px;
+    gap: 20px;
     box-sizing: border-box;
 }
 
@@ -373,7 +373,6 @@ textarea {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 100px;
     width: 100%;
     box-sizing: border-box;
 }
