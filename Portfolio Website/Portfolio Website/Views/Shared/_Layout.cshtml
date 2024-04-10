@@ -16,21 +16,22 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <ul class="navbar-buttons-list">
-                <li class="navbar-buttons-listitem">
-                    <a class="navbar-buttons-listitem-content" href="/#intro">HOME</a>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li class="nav-home">
+                    <a href="/#intro">HOME</a>
                 </li>
-                <li class="navbar-buttons-listitem">
-                    <a class="navbar-buttons-listitem-content" href="/#about">ABOUT</a>
+                <li class="nav-about">
+                    <a href="/#about">ABOUT</a>
                 </li>
-                <li class="navbar-buttons-listitem">
-                    <a class="navbar-buttons-listitem-content" href="/#projects">PROJECTS</a>
+                <li class="nav-projects">
+                    <a href="/#projects">PROJECTS</a>
                 </li>
-                <li class="navbar-buttons-listitem">
-                    <a class="navbar-buttons-listitem-content" href="/#contact">CONTACT</a>
+                <li class="nav-contact">
+                    <a href="/#contact">CONTACT</a>
                 </li>
             </ul>
+            <div class="nav-slider"></div>
         </nav>
     </header>
     <div class="container">
@@ -54,4 +55,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
+

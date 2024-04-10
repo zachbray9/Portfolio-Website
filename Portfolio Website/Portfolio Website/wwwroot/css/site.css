@@ -41,6 +41,12 @@ p {
     font-size: 16px;
 }
 
+a {
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     p {
         font-size: 12px;
@@ -55,11 +61,6 @@ li {
     list-style: none;
 }
 
-a {
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 input {
     padding: 10px;
@@ -106,44 +107,65 @@ textarea {
     margin-bottom: 25px;
     padding: 20px 40px;
     margin: 0px 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    transition: 0.5s all ease;
+}
+
+.navbar-filled {
     background-color: rgba(114, 114, 114, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid #404040b5;
     box-shadow: 0 2px 10px #0000001a;
-    border-radius: 50px;
 }
 
-.navbar-buttons-list {
+.navbar ul {
     list-style: none;
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 60px;
-    padding: 0px;
 }
 
-.navbar-buttons-listitem {
+.navbar ul li {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    z-index: 2;
 }
 
-.navbar-buttons-listitem-content {
+.navbar ul li a {
     text-decoration: none;
     cursor: pointer;
     color: #fff;
     transition: all 0.2s;
 }
 
-.navbar-buttons-listitem-content:hover {
+.navbar ul li a:hover {
     color: var(--accentblue);
+}
+
+.nav-slider {
+    position: absolute;
+    height: 75%;
+    width: 0px;
+    border-radius: 30px;
+    background-color: var(--darkmode2);
+    transition: all .3s cubic-bezier(.34, 1.56, .64, 1);
 }
 
 @media (max-width: 768px)
 {
-    .navbar-buttons-list {
+    .navbar ul {
         gap: 30px;
     }
 
-    .navbar-buttons-listitem-content {
+    .navbar ul li a {
         font-size: 12px;
     }
 }
@@ -151,7 +173,7 @@ textarea {
 /*Intro Section*/
 
 .intro-section {
-    height: calc(100vh - 100px);
+    height: calc(98vh - 100px);
 }
 
 .intro-section-container {
@@ -295,7 +317,7 @@ textarea {
     color: white;
 }
 
-.entityframeworkimg{
+.skill-logo-img{
     height: 32px;
     width: 32px;
 }
@@ -306,7 +328,7 @@ textarea {
         font-size: 16px;
     }
 
-    .entityframeworkimg{
+    .skill-logo-img{
         height: 18px;
         width: 18px;
     }
@@ -461,7 +483,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     width: 100%;
     height: 0;
@@ -469,6 +490,14 @@ textarea {
 }
 
 .project-video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.project-video-container img {
     position: absolute;
     width: 100%;
     height: 100%;

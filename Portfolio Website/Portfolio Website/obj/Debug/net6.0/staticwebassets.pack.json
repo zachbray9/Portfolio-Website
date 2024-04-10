@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Portfolio Website.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\AgileProReactRegisterScreenshot.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\AgileProReactRegisterScreenshot.png"
+    },
+    {
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\ChakraUiLogo.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\ChakraUiLogo.png"
+    },
+    {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\EFCore-logo.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\EFCore-logo.png"
     },
@@ -53,8 +61,8 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\ProjectCybernetica\\Unreal Insights Screenshot.PNG"
     },
     {
-      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf",
-      "PackagePath": "staticwebassets\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf"
+      "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\ZacharyBray-Resume-2024.pdf",
+      "PackagePath": "staticwebassets\\Assets\\MyInfo\\ZacharyBray-Resume-2024.pdf"
     },
     {
       "Id": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\css\\site.css",

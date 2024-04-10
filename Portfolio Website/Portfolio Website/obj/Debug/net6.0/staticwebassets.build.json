@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8lcwz+eEUuEvUdY4i6BVTaV2zlKRkcp5fV9pJnsD25k=",
+  "Hash": "fZodzc3p/CnSRLjwDksfXUdflZ+6dhnQsHwQogYDvKk=",
   "Source": "Portfolio Website",
   "BasePath": "_content/Portfolio Website",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Portfolio Website.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\AgileProReactRegisterScreenshot.png",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/AgileProReactRegisterScreenshot.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\AgileProReactRegisterScreenshot.png"
+    },
+    {
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\ChakraUiLogo.png",
+      "SourceId": "Portfolio Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
+      "BasePath": "_content/Portfolio Website",
+      "RelativePath": "Assets/Images/ChakraUiLogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\ChakraUiLogo.png"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\Images\\EFCore-logo.png",
@@ -255,12 +289,12 @@
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\ProjectCybernetica\\Unreal Insights Screenshot.PNG"
     },
     {
-      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf",
+      "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\Assets\\MyInfo\\ZacharyBray-Resume-2024.pdf",
       "SourceId": "Portfolio Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\",
       "BasePath": "_content/Portfolio Website",
-      "RelativePath": "Assets/MyInfo/Zachary_Bray_Resume_01_2024.pdf",
+      "RelativePath": "Assets/MyInfo/ZacharyBray-Resume-2024.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,7 +303,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\MyInfo\\Zachary_Bray_Resume_01_2024.pdf"
+      "OriginalItemSpec": "wwwroot\\Assets\\MyInfo\\ZacharyBray-Resume-2024.pdf"
     },
     {
       "Identity": "C:\\Users\\zachb\\Documents\\Github Repositories\\Portfolio-Website\\Portfolio Website\\Portfolio Website\\wwwroot\\css\\site.css",

@@ -3,7 +3,7 @@
 }
 
 <div class="text-center">
-    <div class="intro-section" id="intro">
+    <section class="intro-section" id="intro">
         <div class="intro-section-container">
             <div class="intro-section-nameandbuttons-container">
                 <div class="intro-text">
@@ -22,8 +22,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="aboutme-section" id="about">
+    </section>
+    <section class="aboutme-section" id="about">
         <div class="aboutme-section-details-container">
             <div class="aboutme-section-details">
                 <div class="aboutme-bio">
@@ -33,7 +33,7 @@
                         with a minor in Computer Science.<br><br>
                         During my time at UCF, I worked on several small game development teams where I collaborated with artists, designers, and other programmers to help design and develop game mechanics. During 
                         this time, I built a foundation for programming and learned about the software development lifecycle and how to work on development teams.<br><br> After exploring a few
-                        different possible career routes, I ended up taking a tools development class where I was introduced to Windows Forms and built a simple form that
+                        different possible career routes, I ended up taking a tools development class where I was introduced to Windows Forms and built an app that
                         accessed the Riot Games API and displayed the top 200 ranked Valorant players. It sounds simple, but I was fascinated and the technology instantly resonated with me.
                         From that point on I devoted my free time to learning more about software development and I went on to build several desktop and web apps. Feel free to look at them in the 
                         projects section!
@@ -53,6 +53,18 @@
                             <div class="skill-tag">
                                 <i class="devicon-css3-plain colored techIcon"></i>
                                 <p class="skill-label">CSS</p>
+                            </div>
+                        </li>
+                        <li class="aboutme-listitem">
+                            <div class="skill-tag">
+                                <i class="devicon-react-original colored techIcon"></i>
+                                <p class="skill-label">React.js</p>
+                            </div>
+                        </li>
+                        <li class="aboutme-listitem">
+                            <div class="skill-tag">
+                                <img src="Assets/Images/ChakraUiLogo.png" alt="Entity Framework Logo" class="skill-logo-img" />
+                                <p class="skill-label">Chakra UI</p>
                             </div>
                         </li>
                         <li class="aboutme-listitem">
@@ -87,7 +99,7 @@
                         </li>
                         <li class="aboutme-listitem">
                             <div class="skill-tag">
-                                <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="entityframeworkimg" />
+                                <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="skill-logo-img" />
                                 <p class="skill-label">Entity Framework</p>
                             </div>
                         </li>
@@ -123,19 +135,67 @@
                             </div>
                         </li>
                     </ul>
-                    <a class="ScrollToSection-Button" href="Assets/MyInfo/Zachary_Bray_Resume_01_2024.pdf" target="_blank">RESUME</a>
+                    <a class="ScrollToSection-Button" href="Assets/MyInfo/ZacharyBray-Resume-2024.pdf" target="_blank">RESUME</a>
                 </div>
             </div>
         </div>
 
-    </div>
+    </section>
 
-    <div class="projects-section" id="projects">
+    <section class="projects-section" id="projects">
         <div class="projects-section-container">
             <div class="projects-section-header-container">
                 <h4 class="projects-section-header">PROJECTS</h4>
             </div>
             <ul class="projects-list">
+                <li class="projects-list-listitem">
+                    <h5 class="project-title">AgilePro Web App (Currently in development)</h5>
+                    <div class="project-container">
+                        <div class="project-details-container">
+                            <div class="project-techstack-container">
+                                <div class="skill-tag">
+                                    <i class="devicon-csharp-plain colored techIcon"></i>
+                                    <p>C#</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <i class="devicon-react-original colored techIcon"></i>
+                                    <p>React.js</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <img src="Assets/Images/ChakraUiLogo.png" alt="Entity Framework Logo" class="skill-logo-img" />
+                                    <p>Chakra UI</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <i class="devicon-dotnetcore-plain colored techIcon"></i>
+                                    <p>ASP.Net Web Api</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="skill-logo-img" />
+                                    <p>Entity Framework</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <i class="devicon-microsoftsqlserver-plain techIcon"></i>
+                                    <p>Microsoft SQL Server</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <i class="devicon-azure-plain colored techIcon"></i>
+                                    <p>Microsoft Azure</p>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                An intuitive Project Management/Bug Tracking tool made using React, Chakra UI, and my custom REST API that allows development teams to collaboratively
+                                manage projects. Users can create and assign tickets, keep track of ticket status, and leave comments on tickets making the
+                                development process streamlined and organized.
+                            </p>
+                            <div class="project-buttons-container">
+                                <a class="ScrollToSection-Button" href="https://github.com/zachbray9/Bug-Tracker" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                        <div class="project-video-container">
+                            <img class="project-video" width="560" height="315" src="Assets/Images/AgileProReactRegisterScreenshot.png" title="Register Page"/>
+                        </div>
+                    </div>
+                </li>
                 <li class="projects-list-listitem">
                     <h5 class="project-title">MyAnimeVault</h5>
                     <div class="project-container">
@@ -150,7 +210,7 @@
                                     <p>ASP.Net Core MVC</p>
                                 </div>
                                 <div class="skill-tag">
-                                    <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="entityframeworkimg" />
+                                    <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="skill-logo-img" />
                                     <p>Entity Framework</p>
                                 </div>
                                 <div class="skill-tag">
@@ -182,7 +242,7 @@
                     </div>
                 </li>
                 <li class="projects-list-listitem">
-                    <h5 class="project-title">AgilePro</h5>
+                    <h5 class="project-title">AgilePro Desktop App</h5>
                     <div class="project-container">
                         <div class="project-details-container">
                             <div class="project-techstack-container">
@@ -195,20 +255,28 @@
                                     <p>WPF</p>
                                 </div>
                                 <div class="skill-tag">
-                                    <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="entityframeworkimg" />
+                                    <i class="devicon-dotnetcore-plain colored techIcon"></i>
+                                    <p>ASP.Net Web Api</p>
+                                </div>
+                                <div class="skill-tag">
+                                    <img src="Assets/Images/EFCore-logo.png" alt="Entity Framework Logo" class="skill-logo-img" />
                                     <p>Entity Framework</p>
                                 </div>
                                 <div class="skill-tag">
                                     <i class="devicon-microsoftsqlserver-plain techIcon"></i>
                                     <p>Microsoft SQL Server</p>
                                 </div>
+                                <div class="skill-tag">
+                                    <i class="devicon-azure-plain colored techIcon"></i>
+                                    <p>Microsoft Azure</p>
+                                </div>
                             </div>
-                            <p class="project-description">An intuitive Project Management/Bug Tracking tool that allows development teams to collaboratively 
+                            <p class="project-description">An intuitive Project Management/Bug Tracking tool made using WPF and my custom REST API that allows development teams to collaboratively 
                                 manage projects. Users can create and assign tickets, keep track of ticket status, and leave comments on tickets making the
                                 development process streamlined and organized.</p>
                             <div class="project-buttons-container">
                                 <a class="ScrollToSection-Button" href="https://github.com/zachbray9/Bug-Tracker" target="_blank">Source Code</a>
-                                <a class="ScrollToSection-Button" href="https://github.com/zachbray9/Bug-Tracker/releases/tag/Bug-Tracker%2Fv1.0.11" target="_blank">Download</a>
+                                <a class="ScrollToSection-Button" href="https://github.com/zachbray9/Bug-Tracker/releases/tag/Publish" target="_blank">Download</a>
                             </div>
                         </div>
                         <div class="project-video-container">
@@ -297,9 +365,9 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
 
-    <div class="contact-section" id="contact">
+    <section class="contact-section" id="contact">
         <div class="contact-section-container">
             <h3 class="contact-section-header">CONTACT</h3>
             <p class="contact-section-description">Want to get connected?</p>
@@ -318,13 +386,13 @@
                 <button class="ScrollToSection-Button" type="submit">SUBMIT</button>
             </form>
         </div>
-    </div>
+    </section>
 </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         // Select all links with the class navbar-buttons-listitem-content
-        var links = document.querySelectorAll('.navbar-buttons-listitem-content');
+        var links = document.querySelectorAll('.navbar ul li a');
 
         // Add click event listener to each link
         links.forEach(function (link) {
@@ -342,7 +410,11 @@
                         behavior: 'smooth'
                     });
                 }
+
             });
         });
     });
+
+
+
 </script>
